@@ -32,14 +32,16 @@ class PomodoroTimer:
         st.markdown(f"<h1 style='text-align: center; color: red;'>{timer_text}</h1>", unsafe_allow_html=True)
 
     def run(self):
-        st.title("Pomodoro Timer")
-        st.write("Work for 25 minutes, then take a 5-minute break. Repeat.")
+        st.header("Pomodoro Timer")
+        desc = st.empty()
 
         col1, col2 = st.columns(2)
         with col1:
             work_duration = st.number_input("Work Duration (minutes)", min_value=1, max_value=60, value=25, step=1)
         with col2:
             break_duration = st.number_input("Break Duration (minutes)", min_value=1, max_value=60, value=5, step=1)
+
+        desc.write(f"Work for {work_duration} minutes, then take a {break_duration}-minute break. Repeat.")
 
         if st.button("Start Timer"):
             self.__init__(work_duration, break_duration)

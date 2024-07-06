@@ -21,6 +21,7 @@ from components.quotes.quotes import define_quotes
 from components.study_plan.study_plan_display import StudyPlanDisplay
 from components.study_plan.study_plan import define_study_plan
 from components.visual_effects.visual_effects_manager import VisualEffectsManager
+from components.pomodoro_timer.pomodoro_timer import PomodoroTimer
 from utils import load_completed_topics, save_completed_topics, play_zen_music, play_sound_effect
 
 def main():
@@ -30,6 +31,10 @@ def main():
     # Set the page title and display the title
     st.set_page_config(page_title="Plan de Estudio 📚")
     st.title("Plan de Estudio 📚")
+
+    # Display a pomodoro timer
+    pomodoro_timer = PomodoroTimer()
+    pomodoro_timer.run()
 
     # Display a random quote
     quotes = define_quotes()
