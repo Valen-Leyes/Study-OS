@@ -2,7 +2,7 @@
 import time
 from mutagen.mp3 import MP3
 import streamlit as st
-from config import ZEN_MUSIC, COMPLETED_TOPICS_FILE
+from config import LOFI_MUSIC ,ZEN_MUSIC, COMPLETED_TOPICS_FILE
 
 def load_completed_topics():
     try:
@@ -31,6 +31,9 @@ def play_sound_effect(file_path):
 
     time.sleep(duration)
     audio_player.empty()
+
+def play_lofi_music():
+    play_background_music(LOFI_MUSIC)
 
 def play_zen_music():
     play_background_music(ZEN_MUSIC)
