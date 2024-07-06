@@ -1,3 +1,5 @@
+# config.py
+
 # Folders
 MUSIC_FOLDER = "audio/music/"
 SFX_FOLDER = "audio/sfx/"

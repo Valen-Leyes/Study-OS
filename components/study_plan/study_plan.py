@@ -1,3 +1,4 @@
+# study_plan.py
 def define_study_plan():
     # Define the study plan
     study_plan = {

@@ -1,3 +1,4 @@
+# visual_effects_manager.py
 import streamlit as st
 from config import BALLOONS_SFX, SNOW_SFX
 

@@ -1,3 +1,4 @@
+# quotes_display.py
 import streamlit as st
 import random
 

@@ -1,3 +1,4 @@
+# quotes.py
 def define_quotes():
     # Define the quotes
     quotes = [

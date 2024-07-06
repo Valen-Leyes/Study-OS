@@ -1,3 +1,4 @@
+# study_plan_display.py
 import streamlit as st
 
 class StudyPlanDisplay:
