@@ -2,7 +2,7 @@
 import time
 from mutagen.mp3 import MP3
 import streamlit as st
-from config import LOFI_MUSIC ,ZEN_MUSIC, COMPLETED_TOPICS_FILE
+from config import LOFI_MUSIC, ZEN_MUSIC, COMPLETED_TOPICS_FILE
 
 def load_completed_topics():
     try:
