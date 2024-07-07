@@ -61,6 +61,10 @@ class PomodoroTimer:
 
         desc.write(f"Study for {work_duration} minutes, then take a {break_duration}-minute break. Repeat.")
 
-        if st.button("Start Timer"):
+        button_container = st.empty()
+        start_button = button_container.button("Start Timer")
+        if start_button:
+            button_container.empty()
+            button_container.button("Stop Timer")
             self.__init__(work_duration, break_duration)
             self.start_timer()
