@@ -1,0 +1,4 @@
+🔍 Proposiciones y Conectivos Lógicos
+📊 Propiedades de los Conectivos Lógicos
+🔢 Noción de Conjuntos y Operaciones entre Conjuntos
+🔄 Propiedades de las Operaciones entre Conjuntos
