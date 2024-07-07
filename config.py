@@ -6,7 +6,6 @@ SFX_FOLDER = "audio/sfx/"
 
 # Music files
 LOFI_MUSIC = MUSIC_FOLDER + "lofi.mp3"
-ZEN_MUSIC = MUSIC_FOLDER + "zen.mp3"
 
 # Sound effect files
 BALLOONS_SFX = SFX_FOLDER + "balloons.mp3"
