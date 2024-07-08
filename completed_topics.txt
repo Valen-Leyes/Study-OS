@@ -2,3 +2,11 @@
 📊 Propiedades de los Conectivos Lógicos
 🔢 Noción de Conjuntos y Operaciones entre Conjuntos
 🔄 Propiedades de las Operaciones entre Conjuntos
+📐 Definición de Relación y Concepto de Dominio, Imagen e Inversa
+🔀 Composición de Relaciones y Propiedades de las Relaciones
+🔄 Relaciones de Equivalencia y Relaciones de Orden
+📊 Representación Cartesiana de Relaciones
+📈 Definición de Función y Representación Gráfica de Funciones
+📊 Clasificación de Funciones y Composición de Funciones
+🔄 Función Inversa y Funciones Especiales
+📊 Partes de un Conjunto, Partición de un Conjunto, Conjuntos Numéricos (de UNIDAD I)
