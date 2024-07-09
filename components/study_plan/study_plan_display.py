@@ -17,8 +17,6 @@ class StudyPlanDisplay:
     def update_progress_bar(self):
         # Calculate the progress
         progress = len(self.completed_topics) / self.total_topics
-        # Ensure the progress value is between 0.0 and 1.0
-        progress = min(progress, 1.0)
         # Update the progress bar
         self.progress_bar_container.progress(progress)
 
