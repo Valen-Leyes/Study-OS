@@ -31,8 +31,29 @@ def main():
     study_plan = define_study_plan()
     completed_topics = load_completed_topics()
 
+    # Display a button to choose a day
+    day = st.selectbox("Selecciona un día:", [
+        "Todos",
+        "Día 1: UNIDAD I - Lógica Proposicional y Teoría Intuitiva de Conjuntos 📖", 
+        "Día 2: UNIDAD II - Relaciones y UNIDAD III - Funciones 🔗", 
+        "Día 3: UNIDAD IV - Conjuntos Numéricos y UNIDAD V - Análisis Combinatorio 🔢", 
+        "Día 4: UNIDAD VI - Polinomios y UNIDAD VII - Matrices y Determinantes 🔲", 
+        "Día 5: UNIDAD VIII - Sistemas de Ecuaciones Lineales and UNIDAD IX - Nociones de Geometría Analítica 📐"
+    ])
+
+    # Filter the study plan based on the selected day
+    if day != "Todos":
+        study_plan = {day: study_plan[day]}
+        completed_topics_copy = completed_topics.copy()
+        completed_topics = []
+        study_plan_day = study_plan[day]
+        for session, topics in study_plan_day["Sesiones"].items():
+            for topic in topics:
+                if topic in completed_topics_copy:
+                    completed_topics.append(topic)
+
     # Display the study plan
-    study_plan_display = StudyPlanDisplay(study_plan, completed_topics)
+    study_plan_display = StudyPlanDisplay(study_plan, completed_topics, day)
     visual_effects_manager = VisualEffectsManager()
     changes_made = study_plan_display.display()
 

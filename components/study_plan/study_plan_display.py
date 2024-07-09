@@ -3,9 +3,10 @@ import streamlit as st
 import webbrowser
 
 class StudyPlanDisplay:
-    def __init__(self, study_plan, completed_topics):
+    def __init__(self, study_plan, completed_topics, selected_day):
         self.study_plan = study_plan
         self.completed_topics = completed_topics
+        self.selected_day = selected_day
         # Create an empty container for the progress bar
         self.progress_bar_container = st.empty()
         # Calculate the total topics
@@ -16,8 +17,11 @@ class StudyPlanDisplay:
     def update_progress_bar(self):
         # Calculate the progress
         progress = len(self.completed_topics) / self.total_topics
+        # Ensure the progress value is between 0.0 and 1.0
+        progress = min(progress, 1.0)
         # Update the progress bar
         self.progress_bar_container.progress(progress)
+
 
     # Display the study plan and buttons to open the resources
     def display(self):
@@ -48,6 +52,6 @@ class StudyPlanDisplay:
                     # Open the resource URL in a new tab
                     webbrowser.open_new_tab(resource)
 
-        if len(self.completed_topics) == self.total_topics:
+        if len(self.completed_topics) == self.total_topics and self.selected_day == "Todos":
             st.success("¡Felicidades! Has completado todos los temas y recursos del plan de estudio.")
         return changes_made
