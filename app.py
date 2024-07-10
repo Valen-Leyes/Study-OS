@@ -7,42 +7,51 @@ from components.visual_effects.visual_effects_manager import VisualEffectsManage
 from components.pomodoro_timer.pomodoro_timer import PomodoroTimer
 from utils import load_completed_topics, save_completed_topics, play_lofi_music, play_sound_effect
 
-def main():
+def display_page_title_and_header():
     """
-    The main function that runs the application.
+    Set the page title and display the title.
     """
-    # Set the page title and display the title
     st.set_page_config(page_title="Plan de Estudio 📚")
     st.title("Plan de Estudio 📚")
 
-    # Play lofi music in the background
+def play_background_music():
+    """
+    Play lofi music in the background.
+    """
     play_lofi_music()
 
-    # Display a pomodoro timer
+def display_pomodoro_timer():
+    """
+    Display a pomodoro timer.
+    """
     pomodoro_timer = PomodoroTimer()
     pomodoro_timer.run()
 
-    # Display a random quote
+def display_random_quote():
+    """
+    Display a random quote.
+    """
     quotes = define_quotes()
     quotes_display = QuotesDisplay(quotes)
     quotes_display.display()
 
-    # Define the study plan and load completed topics
+def load_and_filter_study_plan(unfiltered_completed_topics):
+    """
+    Define the study plan and load completed topics.
+    Filter the study plan based on the selected day.
+    """
     study_plan = define_study_plan()
-    completed_topics = load_completed_topics()
+    completed_topics_copy = unfiltered_completed_topics.copy()
 
-    # Display a button to choose a day
     day = st.selectbox("Selecciona un día:", [
         "Todos",
-        "Día 1: UNIDAD I - Lógica Proposicional y Teoría Intuitiva de Conjuntos 📖", 
-        "Día 2: UNIDAD II - Relaciones y UNIDAD III - Funciones 🔗", 
-        "Día 3: UNIDAD IV - Conjuntos Numéricos y UNIDAD V - Análisis Combinatorio 🔢", 
-        "Día 4: UNIDAD VI - Polinomios y UNIDAD VII - Matrices y Determinantes 🔲", 
+        "Día 1: UNIDAD I - Lógica Proposicional y Teoría Intuitiva de Conjuntos 📖",
+        "Día 2: UNIDAD II - Relaciones y UNIDAD III - Funciones 🔗",
+        "Día 3: UNIDAD IV - Conjuntos Numéricos y UNIDAD V - Análisis Combinatorio 🔢",
+        "Día 4: UNIDAD VI - Polinomios y UNIDAD VII - Matrices y Determinantes 🔲",
         "Día 5: UNIDAD VIII - Sistemas de Ecuaciones Lineales and UNIDAD IX - Nociones de Geometría Analítica 📐"
     ])
 
-    # Filter the study plan based on the selected day
-    completed_topics_copy = completed_topics.copy()
     if day != "Todos":
         study_plan = {day: study_plan[day]}
         completed_topics = []
@@ -51,25 +60,52 @@ def main():
             for topic in topics:
                 if topic in completed_topics_copy:
                     completed_topics.append(topic)
+    else:
+        completed_topics = completed_topics_copy
 
-    # Display the study plan
+    return study_plan, completed_topics, day, completed_topics_copy
+
+def display_study_plan(study_plan, completed_topics, day):
+    """
+    Display the study plan.
+    """
     study_plan_display = StudyPlanDisplay(study_plan, completed_topics, day)
     visual_effects_manager = VisualEffectsManager()
     changes_made = study_plan_display.display()
+    return changes_made, visual_effects_manager
 
-    # Display a message of good luck
+def display_good_luck_message():
+    """
+    Display a message of good luck.
+    """
     st.markdown("---")
     st.markdown("¡Buena suerte en tu estudio! 🍀")
 
-    # If changes were made, save the completed topics and play a sound effect
-    if changes_made:
-        sfx = visual_effects_manager.add_visual_effects(completed_topics)
-        play_sound_effect(sfx)
-        for topic in completed_topics:
-            if topic not in completed_topics_copy:
-                completed_topics_copy.append(topic)
-        save_completed_topics(completed_topics_copy)
+def save_completed_topics_and_play_sound_effect(completed_topics, completed_topics_copy, visual_effects_manager):
+    """
+    If changes were made, save the completed topics and play a sound effect.
+    """
+    sfx = visual_effects_manager.add_visual_effects(completed_topics)
+    play_sound_effect(sfx)
+    for topic in completed_topics:
+        if topic not in completed_topics_copy:
+            completed_topics_copy.append(topic)
+    save_completed_topics(completed_topics_copy)
 
-# Run the main function if this script is executed
+def main():
+    """
+    The main function that runs the application.
+    """
+    display_page_title_and_header()
+    play_background_music()
+    display_pomodoro_timer()
+    display_random_quote()
+    study_plan, completed_topics, day, unfiltered_completed_topics = load_and_filter_study_plan(load_completed_topics())
+    changes_made, visual_effects_manager = display_study_plan(study_plan, completed_topics, day)
+    display_good_luck_message()
+
+    if changes_made:
+        save_completed_topics_and_play_sound_effect(completed_topics, unfiltered_completed_topics, visual_effects_manager)
+
 if __name__ == "__main__":
     main()
