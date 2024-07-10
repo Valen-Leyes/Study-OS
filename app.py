@@ -42,9 +42,9 @@ def main():
     ])
 
     # Filter the study plan based on the selected day
+    completed_topics_copy = completed_topics.copy()
     if day != "Todos":
         study_plan = {day: study_plan[day]}
-        completed_topics_copy = completed_topics.copy()
         completed_topics = []
         study_plan_day = study_plan[day]
         for session, topics in study_plan_day["Sesiones"].items():
@@ -65,7 +65,10 @@ def main():
     if changes_made:
         sfx = visual_effects_manager.add_visual_effects(completed_topics)
         play_sound_effect(sfx)
-        save_completed_topics(completed_topics)
+        for topic in completed_topics:
+            if topic not in completed_topics_copy:
+                completed_topics_copy.append(topic)
+        save_completed_topics(completed_topics_copy)
 
 # Run the main function if this script is executed
 if __name__ == "__main__":
