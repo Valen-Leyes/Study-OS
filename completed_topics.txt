@@ -18,3 +18,11 @@
 📊 Análisis y Aplicaciones
 🔢 Número Combinatorio y Propiedades de los Números Combinatorios
 🔢 Desarrollos s-ádicos y Cambios de Base (de UNIDAD IV)
+📐 Expresión Formal de Polinomio en una Indeterminada y Grado de un Polinomio
+🔄 Operaciones con Polinomios y Algoritmos de la División
+📈 Teorema de Ruffini y Raíces de un Polinomio
+📝 Teorema del Resto y Teorema Fundamental del Álgebra
+📊 Definición de Matrices y Operaciones con Matrices
+📊 Matrices Cuadradas y Producto Escalar-Matriz
+🔄 Reducción a una Matriz Escalonada por Filas y Matriz Inversa
+📐 Determinante y Caracterización de las Matrices de Rango Completo
