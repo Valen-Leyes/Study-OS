@@ -26,3 +26,11 @@
 📊 Matrices Cuadradas y Producto Escalar-Matriz
 🔄 Reducción a una Matriz Escalonada por Filas y Matriz Inversa
 📐 Determinante y Caracterización de las Matrices de Rango Completo
+📝 Definición de Sistemas de Ecuaciones Lineales y Clasificación
+📊 Conjunto Solución y Teorema Fundamental de Equivalencia
+📈 Teorema de Rouché-Frobenius y Sistemas Cuadrados
+📊 Teorema de Cramer y Regla de Cramer
+📐 Sistemas de Coordenadas y Ecuación de la Recta
+📈 Ecuación de la Circunferencia y Ecuación de la Elipse
+📉 Ecuación de la Hipérbola y Ecuación de la Parábola
+🔄 Intersecciones y Revisión General
