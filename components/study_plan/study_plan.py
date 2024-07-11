@@ -4,7 +4,7 @@ def define_study_plan():
     study_plan = {
         "Día 1: UNIDAD I - Lógica Proposicional y Teoría Intuitiva de Conjuntos 📖": {
             "Sesiones": {
-                "Mañana (4 horas)": [
+                "Mañana (1 hora)": [
                     "🔍 Proposiciones y Conectivos Lógicos",
                     "📊 Propiedades de los Conectivos Lógicos",
                     "🔢 Noción de Conjuntos y Operaciones entre Conjuntos",
@@ -19,13 +19,13 @@ def define_study_plan():
         },
         "Día 2: UNIDAD II - Relaciones y UNIDAD III - Funciones 🔗": {
             "Sesiones": {
-                "Mañana (2 horas)": [
+                "Mañana (1 hora)": [
                     "📐 Definición de Relación y Concepto de Dominio, Imagen e Inversa",
                     "🔀 Composición de Relaciones y Propiedades de las Relaciones",
                     "🔄 Relaciones de Equivalencia y Relaciones de Orden",
                     "📊 Representación Cartesiana de Relaciones"
                 ],
-                "Tarde (2 horas)": [
+                "Tarde (1 hora)": [
                     "📈 Definición de Función y Representación Gráfica de Funciones",
                     "📊 Clasificación de Funciones y Composición de Funciones",
                     "🔄 Función Inversa y Funciones Especiales",
@@ -40,13 +40,13 @@ def define_study_plan():
         },
         "Día 3: UNIDAD IV - Conjuntos Numéricos y UNIDAD V - Análisis Combinatorio 🔢": {
             "Sesiones": {
-                "Mañana (2 horas)": [
+                "Mañana (1 hora)": [
                     "🔢 Conjuntos Numéricos (Naturales, Enteros, Racionales, Reales y Complejos)",
                     "🔢 Propiedades Algebraicas Básicas y Principio de Inducción",
                     "🔢 Variante del Principio de Inducción y Algoritmo de la División",
                     "🔢 Divisibilidad, Máximo Común Divisor y Mínimo Común Múltiplo"
                 ],
-                "Tarde (2 horas)": [
+                "Tarde (1 hora)": [
                     "🔢 Variaciones, Combinaciones y Permutaciones, Simples y con Repetición",
                     "📊 Análisis y Aplicaciones",
                     "🔢 Número Combinatorio y Propiedades de los Números Combinatorios",
@@ -64,13 +64,13 @@ def define_study_plan():
         },
         "Día 4: UNIDAD VI - Polinomios y UNIDAD VII - Matrices y Determinantes 🔲": {
             "Sesiones": {
-                "Mañana (2 horas)": [
+                "Mañana (1 hora)": [
                     "📐 Expresión Formal de Polinomio en una Indeterminada y Grado de un Polinomio",
                     "🔄 Operaciones con Polinomios y Algoritmos de la División",
                     "📈 Teorema de Ruffini y Raíces de un Polinomio",
                     "📝 Teorema del Resto y Teorema Fundamental del Álgebra"
                 ],
-                "Tarde (2 horas)": [
+                "Tarde (1 hora)": [
                     "📊 Definición de Matrices y Operaciones con Matrices",
                     "📊 Matrices Cuadradas y Producto Escalar-Matriz",
                     "🔄 Reducción a una Matriz Escalonada por Filas y Matriz Inversa",
@@ -86,13 +86,13 @@ def define_study_plan():
         },
         "Día 5: UNIDAD VIII - Sistemas de Ecuaciones Lineales and UNIDAD IX - Nociones de Geometría Analítica 📐": {
             "Sesiones": {
-                "Mañana (2 horas)": [
+                "Mañana (1 hora)": [
                     "📝 Definición de Sistemas de Ecuaciones Lineales y Clasificación",
                     "📊 Conjunto Solución y Teorema Fundamental de Equivalencia",
                     "📈 Teorema de Rouché-Frobenius y Sistemas Cuadrados",
                     "📊 Teorema de Cramer y Regla de Cramer"
                 ],
-                "Tarde (2 horas)": [
+                "Tarde (1 hora)": [
                     "📐 Sistemas de Coordenadas y Ecuación de la Recta",
                     "📈 Ecuación de la Circunferencia y Ecuación de la Elipse",
                     "📉 Ecuación de la Hipérbola y Ecuación de la Parábola",
