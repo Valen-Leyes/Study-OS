@@ -5,7 +5,17 @@ from components.study_plan.study_plan_display import StudyPlanDisplay
 from components.study_plan.study_plan import define_study_plan
 from components.visual_effects.visual_effects_manager import VisualEffectsManager
 from components.pomodoro_timer.pomodoro_timer import PomodoroTimer
+from components.exam_turn.exam_turn import availability_checker
 from utils import load_completed_topics, save_completed_topics, play_lofi_music, play_sound_effect
+
+LOGIN_URL = st.secrets["LOGIN_URL"]
+LOGIN_PAYLOAD = {
+    "usuario": st.secrets["LOGIN_USER"],
+    "password": st.secrets["LOGIN_PASSWORD"],
+    "login": st.secrets["LOGIN_BUTTON"]
+}
+TARGET_URL = st.secrets["TARGET_URL"]
+STRING_TO_SEARCH = st.secrets["STRING_TO_SEARCH"]
 
 def display_page_title_and_header():
     """
@@ -98,6 +108,7 @@ def main():
     """
     display_page_title_and_header()
     play_background_music()
+    availability_checker(LOGIN_URL, LOGIN_PAYLOAD, TARGET_URL, STRING_TO_SEARCH)
     display_pomodoro_timer()
     display_random_quote()
     study_plan, completed_topics, day, unfiltered_completed_topics = load_and_filter_study_plan(load_completed_topics())

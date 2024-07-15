@@ -1,3 +1,4 @@
 aienv
 __pycache__
 audio/music/lofi.mp3
+.streamlit/secrets.toml
