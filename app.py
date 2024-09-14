@@ -53,14 +53,8 @@ def load_and_filter_study_plan(unfiltered_completed_topics):
     study_plan = define_study_plan()
     completed_topics_copy = unfiltered_completed_topics.copy()
 
-    day = st.selectbox("Selecciona un día:", [
-        "Todos",
-        "Día 1: UNIDAD I - Lógica Proposicional y Teoría Intuitiva de Conjuntos 📖",
-        "Día 2: UNIDAD II - Relaciones y UNIDAD III - Funciones 🔗",
-        "Día 3: UNIDAD IV - Conjuntos Numéricos y UNIDAD V - Análisis Combinatorio 🔢",
-        "Día 4: UNIDAD VI - Polinomios y UNIDAD VII - Matrices y Determinantes 🔲",
-        "Día 5: UNIDAD VIII - Sistemas de Ecuaciones Lineales and UNIDAD IX - Nociones de Geometría Analítica 📐"
-    ])
+    days = ["Todos"] + list(study_plan.keys())
+    day = st.selectbox("Selecciona un día:", days)
 
     if day != "Todos":
         study_plan = {day: study_plan[day]}
