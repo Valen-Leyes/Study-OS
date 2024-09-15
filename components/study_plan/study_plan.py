@@ -6,7 +6,7 @@ def define_study_plan(subject):
     """
     Load the study plan for the specified subject.
     """
-    with open(f"components/study_plan/assignments/{subject}.json", "r") as file:
+    with open(f"components/study_plan/subjects/{subject}.json", "r") as file:
         study_plan = json.load(file)
 
     return study_plan

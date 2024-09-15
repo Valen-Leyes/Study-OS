@@ -1,0 +1,91 @@
+{
+    "Día 1: UNIDADES I - Estructuras Lineales y II - Estructuras No Lineales": {
+        "Sesiones": {
+            "Mañana (2 horas)": [
+                "📝 Listas enlazadas. Punteros.",
+                "📝 Declaración de listas enlazadas. Operaciones sobre listas enlazadas.",
+                "📝 Declaración de Listas circulares. Listas doblemente enlazadas.",
+                "📝 Pilas y Colas dinámicas."
+            ],
+            "Tarde (2 horas)": [
+                "🌳 Árboles. Árboles binarios.",
+                "🌳 Árbol binario de búsqueda. Recorridos en profundidad y amplitud.",
+                "🌐 Grafos. Definición. Glosario. Representación por matriz y lista de adyacencia.",
+                "🔍 Operaciones sobre grafos. Recorrido y búsqueda en profundidad y en amplitud."
+            ]
+        },
+        "Recursos": [
+            "resources/AEDII/Teoría/Tema I Estructuras Dinámicas.pdf",
+            "resources/AEDII/Teoría/Tema II Estructuras dinámicas.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°1: Estructuras Dinámicas.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°2: Estructuras dinámicas.pdf"
+        ]
+    },
+    "Día 2: UNIDADES III - Recursividad y IV - Datos Abstractos": {
+        "Sesiones": {
+            "Mañana (2 horas)": [
+                "🔁 Recursividad. Naturaleza. Implementación.",
+                "🔁 Recursividad directa e indirecta. Recursividad Infinita.",
+                "💡 Ventajas y desventajas.",
+                "📊 Comparación con procesos iterativos."
+            ],
+            "Tarde (2 horas)": [
+                "📚 Datos Abstractos. Introducción a los tipos de datos abstractos (TAD).",
+                "📚 Abstracción de datos. Concepto sobre tipos de datos. Módulos, interfaz e implementación.",
+                "🔒 Encapsulamiento de datos. Diferencia entre tipo de dato y tipo abstracto de datos.",
+                "💡 Ventajas del uso de TAD. Formas de abstracción. Requerimiento y diseño de un TAD."
+            ]
+        },
+        "Recursos": [
+            "resources/AEDII/Teoría/Tema III Recursividad.pdf",
+            "resources/AEDII/Teoría/Tema IV Datos Abstractos.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°3: Recursividad y TAD.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°4: TAD y Abstracción.pdf"
+        ]
+    },
+    "Día 3 : UNIDADES V - Ordenación y VI - Búsqueda": {
+        "Sesiones": {
+            "Mañana (2 horas)": [
+                "⚡️ Ordenación. Introducción a la ordenación.",
+                "⚡️ Clasificación de los algoritmos de ordenación. Métodos Directos.",
+                "⚡️ Métodos Logarítmicos. Ordenación por montículos.",
+                "⚡️ Ordenación de raíz. Intercalación."
+            ],
+            "Tarde (2 horas)": [
+                "🔍 Búsqueda. Problema de la Búsqueda Estática. Búsqueda Secuencial.",
+                "🔍 Búsqueda de máximos y mínimos. Interna y externa (métodos).",
+                "🔍 Búsqueda Binaria. Búsqueda Ternaria. Búsqueda Interpolada.",
+                "🔍 Búsqueda por transformación de claves (Hasing). Búsqueda fuerza bruta."
+            ]
+        },
+        "Recursos": [
+            "resources/AEDII/Teoría/Tema V Ordenación.pdf",
+            "resources/AEDII/Teoría/Tema VI Búsqueda.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°5: Análisis de Algoritmos.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°6: Optimización y Archivos.pdf"
+        ]
+    },
+    "Día 4: UNIDADES VII - Archivos y VIII - Optimización": {
+        "Sesiones": {
+            "Mañana (2 horas)": [
+                "💻 Introducción al concepto de Archivos. Tipos de Archivos. Operaciones con Archivos.",
+                "📝 Corte de Control. Concepto corte de control. Definiciones. Requisitos.",
+                "📝 Proceso para el corte de control. Corte simple. Corte Compuesto.",
+                "📝 Corte por fin de datos. Operaciones de altas, bajas, modificaciones y consultas a Archivos Directos."
+            ],
+            "Tarde (2 horas)": [
+                "📊 Análisis de algoritmos: concepto de eficiencia. Principio de invarianza. Tipo de Análisis.",
+                "📊 Caso mejor, peor o promedio. Cálculo de la Eficiencia.",
+                "📊 Principio de Optimalidad. Formas de Optimización.",
+                "🔍 Técnicas de aplicación de estrategias algorítmicas seguras. Otras estrategias algorítmicas. Herramientas de optimización."
+            ]
+        },
+        "Recursos": [
+            "resources/AEDII/Teoría/Tema VII Introducción al concepto de Archivos.pdf",
+            "resources/AEDII/Teoría/Tema VIII Análisis de algoritmos.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°7: Archivos.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°8: Análisis de Algoritmos.pdf"
+        ]
+    }
+}
+
