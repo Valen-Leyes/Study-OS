@@ -2,9 +2,11 @@
 import json
 
 
-def define_study_plan():
-    # Load the study plan JSON file
-    with open("components/study_plan/study_plan.json", "r") as file:
+def define_study_plan(subject):
+    """
+    Load the study plan for the specified subject.
+    """
+    with open(f"components/study_plan/assignments/{subject}.json", "r") as file:
         study_plan = json.load(file)
 
     return study_plan

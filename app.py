@@ -48,9 +48,13 @@ def display_random_quote():
 def load_and_filter_study_plan(unfiltered_completed_topics):
     """
     Define the study plan and load completed topics.
-    Filter the study plan based on the selected day.
+    Filter the study plan based on the selected day and subject.
     """
-    study_plan = define_study_plan()
+    subjects = ["Algebra", "AEDII", "LyMC"]  # Add more subjects as needed
+    subject = st.selectbox("Selecciona una materia:", subjects)
+    subject = subject.lower()
+
+    study_plan = define_study_plan(subject)
     completed_topics_copy = unfiltered_completed_topics.copy()
 
     days = ["Todos"] + list(study_plan.keys())
