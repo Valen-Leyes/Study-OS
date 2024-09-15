@@ -1,0 +1,91 @@
+{
+    "Día 1: UNIDADES I - Lógica de Proposiciones y II - Relaciones de Recurrencia": {
+        "Sesiones": {
+            "Mañana (2 horas)": [
+                "⚖️ Sintaxis de fórmulas proposicionales. Interpretaciones. Fórmulas satisfacibles. Modelos.",
+                "💡 Tautologías. Contradicciones. Implicación lógica. Consecuencia lógica.",
+                "🔩 Teorema de la deducción. Conectivos adecuados. Reglas de prioridad. Circuitos lógicos.",
+                "📝 Reglas de inferencia. Modus ponens y Modus tollens. Silogismo hipotético. Aplicaciones."
+            ],
+            "Tarde (2 horas)": [
+                "📈 Sucesiones y sumatorias. Definiciones por recurrencia.",
+                "🔁 Relaciones de Recurrencia. Clasificación de las relaciones de recurrencia.",
+                "🔝 Resolución de los diferentes tipos de relaciones de recurrencia.",
+                "🎲 Generación de números (seudo) aleatorios."
+            ]
+        },
+        "Recursos": [
+            "resources/LyMC/Teoría/Unidad 1 Lógica de Proposiciones.pdf",
+            "resources/LyMC/Teoría/Unidad 2 Relaciones de Recurrencia.pdf",
+            "resources/LyMC/Práctica/Trabajo Práctico N°1: Lógica de Proposiciones.pdf",
+            "resources/LyMC/Práctica/Trabajo Práctico N°2: Relaciones de Recurrencia.pdf"
+        ]
+    },
+    "Día 2: UNIDADES III - Estructuras Algebraicas y IV - Algebra de Boole": {
+        "Sesiones": {
+            "Mañana (2 horas)": [
+                "🔗 Leyes de composición interna. Propiedades. Monoide.",
+                "📈 Semigrupo. Semigrupo con unidad. Grupo.",
+                "🔝 Grupo Abeliano. Subgrupo. Anillo.",
+                "🔩 Anillo con unidad. Cuerpo. Aplicaciones."
+            ],
+            "Tarde (2 horas)": [
+                "💡 Definición. Propiedades.",
+                "🔁 Principio de dualidad. Puertas lógicas.",
+                "🔝 Circuitos booleanos. Minimización de circuitos.",
+                "📊 Funciones booleanas. Diagrama de Karnaugh."
+            ]
+        },
+        "Recursos": [
+            "resources/LyMC/Teoría/Unidad 3 Estructuras algebraicas finitas.pdf",
+            "resources/LyMC/Teoría/Unidad 4 Algebra de Boole.pdf",
+            "resources/LyMC/Práctica/Trabajo Práctico N°3: Estructuras algebraicas finitas.pdf",
+            "resources/LyMC/Práctica/Trabajo Práctico N°4: Algebra de Boole.pdf"
+        ]
+    },
+    "Día 3: UNIDADES V - Grafos y VI - Arboles": {
+        "Sesiones": {
+            "Mañana (2 horas)": [
+                "🌐 Definición. Vértices, lados, grados, bucles, caminos.",
+                "🔁 Circuitos. Circuitos eulerianos.",
+                "🔝 Circuitos hamiltonianos. Caminos de longitud mínima.",
+                "📈 Matrices de adyacencia y grafos. Digrafos."
+            ],
+            "Tarde (2 horas)": [
+                "🌳 Arboles con raíz. Arboles etiquetados.",
+                "📈 Arboles binarios. Búsquedas en árboles.",
+                "🌈 Arboles no dirigidos. Arboles generadores, de expansión o expansión mínima.",
+                "🔩 Algoritmo de Prim y de Kruskal. Árbol de deducción proposicional."
+            ]
+        },
+        "Recursos": [
+            "resources/LyMC/Teoría/Unidad 5 Grafos.pdf",
+            "resources/LyMC/Teoría/Unidad 6 Arboles.pdf",
+            "resources/LyMC/Práctica/Trabajo Práctico N°5: Grafos.pdf",
+            "resources/LyMC/Práctica/Trabajo Práctico N°6: Arboles.pdf"
+        ]
+    },
+    "Día 4: UNIDADES VII - MEF y VIII - Lógica de Predicados": {
+        "Sesiones": {
+            "Mañana (2 horas)": [
+                "📚 Definición de lenguajes formales. Alfabeto.",
+                "📝 Gramáticas. Tipos de gramáticas. Forma de Backus-Naur.",
+                "📊 Definición de MEF. MEF como modelo de sistema físico. MEF determinista y no determinista.",
+                "🔩 Equivalencias de AEFD y AEFND. Representación de gramáticas regulares en Autómatas."
+            ],
+            "Tarde (2 horas)": [
+                "💡 Predicados, relaciones y cuantificadores. Sintaxis. Alfabeto del cálculo de predicados. EBF. Reglas de formación de EBF.",
+                "📝 Semántica. Noción de interpretación. Definición. No ambigüedad semántica del Cálculo de Predicados.",
+                "🔁 Evaluación de EBF. Equivalencia lógica. Deductibilidad. Consistencia.",
+                "🔩 Leyes del cálculo de predicados. Algunas demostraciones de validez. El método de los árboles en el Cálculo de Predicados."
+            ]
+        },
+        "Recursos": [
+            "resources/LyMC/Teoría/Unidad 7 Lenguajes Formales y MEF.pdf",
+            "resources/LyMC/Teoría/Unidad 8 Lógica de Predicados.pdf",
+            "resources/LyMC/Práctica/Trabajo Práctico N°7: Lenguajes Formales y MEF.pdf",
+            "resources/LyMC/Práctica/Trabajo Práctico N°8: Lógica de Predicados.pdf"
+        ]
+    }
+}
+
