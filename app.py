@@ -51,7 +51,7 @@ def load_and_filter_study_plan(unfiltered_completed_topics):
     Define the study plan and load completed topics.
     Filter the study plan based on the selected day and subject.
     """
-    subjects = ["Algebra", "AEDII", "LyMC"]  # Add more subjects as needed
+    subjects = ["AEDII", "LyMC"]  # Add more subjects as needed
     subject = st.selectbox("Selecciona una materia:", subjects)
     subject = subject.lower()
 
