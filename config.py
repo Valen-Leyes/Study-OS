@@ -13,5 +13,5 @@ SNOW_SFX = SFX_FOLDER + "snow.mp3"
 BREAK_SFX = SFX_FOLDER + "break.mp3"
 COMPLETE_SFX = SFX_FOLDER + "complete.mp3"
 
-# Completed topics file
-COMPLETED_TOPICS_FILE = "completed_topics.txt"
+# Completed topics file path
+COMPLETED_TOPICS_FILE_PATH = "components/study_plan/subjects/"

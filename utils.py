@@ -2,18 +2,18 @@
 import time
 from mutagen.mp3 import MP3
 import streamlit as st
-from config import LOFI_MUSIC, COMPLETED_TOPICS_FILE
+from config import LOFI_MUSIC, COMPLETED_TOPICS_FILE_PATH
 
-def load_completed_topics():
+def load_completed_topics(subject):
     try:
-        with open(COMPLETED_TOPICS_FILE, "r") as file:
+        with open(COMPLETED_TOPICS_FILE_PATH + subject + ".txt", "r") as file:
             completed_topics = [line.strip() for line in file.readlines()]
     except FileNotFoundError:
         completed_topics = []
     return completed_topics
 
-def save_completed_topics(completed_topics):
-    with open(COMPLETED_TOPICS_FILE, "w") as file:
+def save_completed_topics(subject, completed_topics):
+    with open(COMPLETED_TOPICS_FILE_PATH + subject + ".txt", "w") as file:
         file.writelines(f"{topic}\n" for topic in completed_topics)
 
 def play_background_music(audio_path):

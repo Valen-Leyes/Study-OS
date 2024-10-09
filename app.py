@@ -46,15 +46,21 @@ def display_random_quote():
     quotes_display = QuotesDisplay(quotes)
     quotes_display.display()
 
-def load_and_filter_study_plan(unfiltered_completed_topics):
+def filter_subject():
     """
-    Define the study plan and load completed topics.
-    Filter the study plan based on the selected day and subject.
+    Filter the study plan based on the selected subject.
     """
     subjects = ["AEDII", "LyMC"]  # Add more subjects as needed
     subject = st.selectbox("Selecciona una materia:", subjects)
     subject = subject.lower()
 
+    return subject
+
+def load_and_filter_study_plan(subject, unfiltered_completed_topics):
+    """
+    Define the study plan and load completed topics.
+    Filter the study plan based on the selected day and subject.
+    """
     study_plan = define_study_plan(subject)
     completed_topics_copy = unfiltered_completed_topics.copy()
 
@@ -90,7 +96,7 @@ def display_good_luck_message():
     st.markdown("---")
     st.markdown("¡Buena suerte en tu estudio! 🍀")
 
-def save_completed_topics_and_play_sound_effect(completed_topics, completed_topics_copy, visual_effects_manager):
+def save_completed_topics_and_play_sound_effect(subject, completed_topics, completed_topics_copy, visual_effects_manager):
     """
     If changes were made, save the completed topics and play a sound effect.
     """
@@ -99,7 +105,7 @@ def save_completed_topics_and_play_sound_effect(completed_topics, completed_topi
     for topic in completed_topics:
         if topic not in completed_topics_copy:
             completed_topics_copy.append(topic)
-    save_completed_topics(completed_topics_copy)
+    save_completed_topics(subject, completed_topics_copy)
 
 def main():
     """
@@ -111,12 +117,13 @@ def main():
     meme_display()
     display_pomodoro_timer()
     display_random_quote()
-    study_plan, completed_topics, day, unfiltered_completed_topics = load_and_filter_study_plan(load_completed_topics())
+    subject = filter_subject()
+    study_plan, completed_topics, day, unfiltered_completed_topics = load_and_filter_study_plan(subject, load_completed_topics(subject))
     changes_made, visual_effects_manager = display_study_plan(study_plan, completed_topics, day)
     display_good_luck_message()
 
     if changes_made:
-        save_completed_topics_and_play_sound_effect(completed_topics, unfiltered_completed_topics, visual_effects_manager)
+        save_completed_topics_and_play_sound_effect(subject, completed_topics, unfiltered_completed_topics, visual_effects_manager)
 
 if __name__ == "__main__":
     main()
