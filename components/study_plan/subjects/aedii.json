@@ -15,10 +15,10 @@
             ]
         },
         "Recursos": [
-            "resources/AEDII/Teoría/Tema I Estructuras Dinámicas.pdf",
-            "resources/AEDII/Teoría/Tema II Estructuras dinámicas.pdf",
-            "resources/AEDII/Práctica/Trabajo Práctico N°1: Estructuras Dinámicas.pdf",
-            "resources/AEDII/Práctica/Trabajo Práctico N°2: Estructuras dinámicas.pdf"
+            "resources/AEDII/Teoría/Tema I Estructuras Lineales.pdf",
+            "resources/AEDII/Teoría/Tema II Estructuras No Lineales.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°1: Estructuras Lineales.pdf",
+            "resources/AEDII/Práctica/Trabajo Práctico N°2: Estructuras No Lineales.pdf"
         ]
     },
     "Día 2: UNIDADES III - Recursividad y IV - Datos Abstractos": {

@@ -50,7 +50,7 @@ def filter_subject():
     """
     Filter the study plan based on the selected subject.
     """
-    subjects = ["AEDII", "LyMC"]  # Add more subjects as needed
+    subjects = ["AEDII", "LyMC", "SyO"]  # Add more subjects as needed
     subject = st.selectbox("Selecciona una materia:", subjects)
     subject = subject.lower()
 

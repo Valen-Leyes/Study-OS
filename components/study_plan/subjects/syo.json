@@ -1,0 +1,43 @@
+{
+    "Unidad I: Los profesionales informáticos en las organizaciones de la Sociedad de la Información": {
+        "Sesiones": {
+            "Mañana (4 horas)": [
+                "Sociedad de la Información y Sociedad del Conocimiento. Tecnologías y sistemas técnicos.",
+                "Cambios en la sociedad y en las organizaciones a partir de la expansión y el uso intensivo de las TIC (brecha digital, obsolescencia tecnológica, big data, internet de las cosas, IA, protección de datos, teletrabajo, etc.).",
+                "Organizaciones tradicionales y organizaciones inteligentes. Concepto de Gobierno de TI. Gestión del conocimiento. Responsabilidad Social Organizacional.",
+                "El rol del profesional informático en la organización. Competencias profesionales: comunicación y trabajo en equipo."
+            ]        },
+        "Recursos": [
+            "resources/SYO/Teoría/Unidad 1 Los profesionales informáticos en las organizaciones de la Sociedad de la Información.pdf",
+            "resources/SYO/Práctica/Trabajo Práctico N°1: Los profesionales informáticos en las organizaciones de la Sociedad de la Información.pdf"
+        ]
+    },
+    "Unidad II: Las organizaciones como sistemas complejos": {
+        "Sesiones": {
+            "Mañana (4 horas)": [
+                "Introducción al pensamiento sistémico. Teoría General de Sistemas.",
+                "Sistemas sociales. La observación de la complejidad social",
+                "Relación sistema/entorno, concepto de autorreferencia. Diferenciación sistémica, subsistemas jerárquicos y funcionales.",
+                "Capacidad de autoorganización de los sistemas complejos. Procesos de aprendizaje organizacional. Bucle simple y bucle doble."
+            ]
+        },
+        "Recursos": [
+            "resources/SYO/Teoría/Unidad 2 Las organizaciones como sistemas complejos.pdf",
+            "resources/SYO/Práctica/Trabajo Práctico N°2: Las organizaciones como sistemas complejos.pdf"
+        ]
+    },
+    "Unidad III: Procesos de cambio organizacional": {
+        "Sesiones": {
+            "Mañana (4 horas)": [
+                "Cambios en las organizaciones y transformación digital. Cuarta Revolución Industrial. Industrias 4.0",
+                "Comunicación y cultura organizacional.",
+                "Poder, autoridad e intereses de los miembros de la organización. Fuentes de poder.",
+                "Alternativas para el abordaje de conflictos en la organización."
+            ]
+        },
+        "Recursos": [
+            "resources/SYO/Teoría/Unidad 3 Procesos de cambio organizacional.pdf",
+            "resources/SYO/Práctica/Trabajo Práctico N°3: Procesos de cambio organizacional.pdf"
+        ]
+    }
+}
