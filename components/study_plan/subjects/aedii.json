@@ -17,8 +17,11 @@
         "Recursos": [
             "resources/AEDII/Teoría/Tema I Estructuras Lineales.pdf",
             "resources/AEDII/Teoría/Tema II Estructuras No Lineales.pdf",
-            "resources/AEDII/Práctica/Trabajo Práctico N°1: Estructuras Lineales.pdf",
-            "resources/AEDII/Práctica/Trabajo Práctico N°2: Estructuras No Lineales.pdf"
+            "resources/AEDII/Práctica/TP1-Punteros - Memoria dinámica.pdf",
+            "resources/AEDII/Práctica/TP2 - Parte1 - Listas con Punteros.pdf",
+            "resources/AEDII/Práctica/TP2 - Parte2 - Pilas y Colas con Punteros.pdf",
+            "resources/AEDII/Práctica/TP4 - Parte 1 - Árboles.pdf",
+            "resources/AEDII/Práctica/TP 4 y 5 - Ejercicios adicionales.pdf"
         ]
     },
     "Día 2: UNIDADES III - Recursividad y IV - Datos Abstractos": {
@@ -39,8 +42,8 @@
         "Recursos": [
             "resources/AEDII/Teoría/Tema III Recursividad.pdf",
             "resources/AEDII/Teoría/Tema IV Datos Abstractos.pdf",
-            "resources/AEDII/Práctica/Trabajo Práctico N°3: Recursividad y TAD.pdf",
-            "resources/AEDII/Práctica/Trabajo Práctico N°4: TAD y Abstracción.pdf"
+            "resources/AEDII/Práctica/TP3 - Recursividad.pdf",
+            "resources/AEDII/Práctica/TP 4 y 5 - Ejercicios adicionales.pdf"
         ]
     },
     "Día 3 : UNIDADES V - Ordenación y VI - Búsqueda": {
@@ -61,8 +64,8 @@
         "Recursos": [
             "resources/AEDII/Teoría/Tema V Ordenación.pdf",
             "resources/AEDII/Teoría/Tema VI Búsqueda.pdf",
-            "resources/AEDII/Práctica/Trabajo Práctico N°5: Análisis de Algoritmos.pdf",
-            "resources/AEDII/Práctica/Trabajo Práctico N°6: Optimización y Archivos.pdf"
+            "resources/AEDII/Práctica/TP6 - Ordenamiento.pdf",
+            "resources/AEDII/Práctica/TP7 - Búsqueda.pdf"
         ]
     },
     "Día 4: UNIDADES VII - Archivos y VIII - Optimización": {
