@@ -1,7 +1,7 @@
 {
     "Unidad I: Los profesionales informáticos en las organizaciones de la Sociedad de la Información": {
         "Sesiones": {
-            "Mañana (4 horas)": [
+            "Mañana": [
                 "📊 Sociedad de la Información y Sociedad del Conocimiento. Tecnologías y sistemas técnicos.",
                 "💻 Cambios en la sociedad y en las organizaciones a partir de la expansión y el uso intensivo de las TIC (brecha digital, obsolescencia tecnológica, big data, internet de las cosas, IA, protección de datos, teletrabajo, etc.).",
                 "🏢 Organizaciones tradicionales y organizaciones inteligentes. Concepto de Gobierno de TI. Gestión del conocimiento. Responsabilidad Social Organizacional.",
@@ -9,13 +9,17 @@
             ]
         },
         "Recursos": [
-            "resources/SYO/Teoría/Unidad 1 Los profesionales informáticos en las organizaciones de la Sociedad de la Información.pdf",
-            "resources/SYO/Práctica/Trabajo Práctico N°1: Los profesionales informáticos en las organizaciones de la Sociedad de la Información.pdf"
+            "resources/SyO/Bibliografía/Mod-I/Alfonso Sánchez, I. - La Sociedad de la Información, Sociedad del Conocimiento y Sociedad del Aprendizaje. Referentes en torno a su formación (2016).pdf",
+            "resources/SyO/Bibliografía/Mod-I/Casanova - El rol de los sistemas de información en la gestión del conocimiento en las empresas (2009).pdf",
+            "resources/SyO/Bibliografía/Mod-I/Castro Chans - Aprendizaje y Gestión del Conocimiento organizacional.pdf",
+            "resources/SyO/Bibliografía/Mod-I/Castro Chans - Tecnologías y Sociedad de la Información 2023.pdf",
+            "resources/SyO/Bibliografía/Mod-I/Guastavino Mosna y Moreiro - Organizaciones inteligentes, Gobierno TI, RSO y Rol del informático (2022).pdf",
+            "resources/SyO/Bibliografía/Mod-I/LIBRO ROJO DE CONFEDI - Extracto Sistemas.pdf"
         ]
     },
     "Unidad II: Las organizaciones como sistemas complejos": {
         "Sesiones": {
-            "Mañana (4 horas)": [
+            "Mañana": [
                 "🧠 Introducción al pensamiento sistémico. Teoría General de Sistemas.",
                 "🌐 Sistemas sociales. La observación de la complejidad social",
                 "🌈 Relación sistema/entorno, concepto de autorreferencia. Diferenciación sistémica, subsistemas jerárquicos y funcionales.",
@@ -23,13 +27,15 @@
             ]
         },
         "Recursos": [
-            "resources/SYO/Teoría/Unidad 2 Las organizaciones como sistemas complejos.pdf",
-            "resources/SYO/Práctica/Trabajo Práctico N°2: Las organizaciones como sistemas complejos.pdf"
+            "resources/SyO/Bibliografía/Mod-II/Dallera.pdf",
+            "resources/SyO/Bibliografía/Mod-II/Lopez Yañez - Ecología social de las organizaciones.pdf",
+            "resources/SyO/Bibliografía/Mod-II/MORGAN -IMAGENES_DE_LA_ORGANIZACION - Organizaciones como cerebro.pdf",
+            "resources/SyO/Bibliografía/Mod-II/Salcedo Barragan y Ortiz Ocana.pdf"
         ]
     },
     "Unidad III: Procesos de cambio organizacional": {
         "Sesiones": {
-            "Mañana (4 horas)": [
+            "Mañana": [
                 "🔴 Cambios en las organizaciones y transformación digital. Cuarta Revolución Industrial. Industrias 4.0",
                 "💬 Comunicación y cultura organizacional.",
                 "💼 Poder, autoridad e intereses de los miembros de la organización. Fuentes de poder.",
@@ -37,8 +43,11 @@
             ]
         },
         "Recursos": [
-            "resources/SYO/Teoría/Unidad 3 Procesos de cambio organizacional.pdf",
-            "resources/SYO/Práctica/Trabajo Práctico N°3: Procesos de cambio organizacional.pdf"
+            "resources/SyO/Bibliografía/Mod-III/Comunicación interna-páginas-11-19.pdf",
+            "resources/SyO/Bibliografía/Mod-III/La cuarta revolución industrial.pdf",
+            "resources/SyO/Bibliografía/Mod-III/Lopez y Vergara . Poder autoridad y gobierno en las empresas de la SI.pdf",
+            "resources/SyO/Bibliografía/Mod-III/Mena Mendez - Cultura organizacional.pdf",
+            "resources/SyO/Bibliografía/Mod-III/Morgan - poder autoridad y conflicto 22-64.pdf"
         ]
     }
 }

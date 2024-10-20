@@ -1,13 +1,13 @@
 {
     "Día 1: UNIDADES I - Lógica de Proposiciones y II - Relaciones de Recurrencia": {
         "Sesiones": {
-            "Mañana (2 horas)": [
+            "Mañana": [
                 "⚖️ Sintaxis de fórmulas proposicionales. Interpretaciones. Fórmulas satisfacibles. Modelos.",
                 "💡 Tautologías. Contradicciones. Implicación lógica. Consecuencia lógica.",
                 "🔩 Teorema de la deducción. Conectivos adecuados. Reglas de prioridad. Circuitos lógicos.",
                 "📝 Reglas de inferencia. Modus ponens y Modus tollens. Silogismo hipotético. Aplicaciones."
             ],
-            "Tarde (2 horas)": [
+            "Tarde": [
                 "📈 Sucesiones y sumatorias. Definiciones por recurrencia.",
                 "🔁 Relaciones de Recurrencia. Clasificación de las relaciones de recurrencia.",
                 "🔝 Resolución de los diferentes tipos de relaciones de recurrencia.",
@@ -23,13 +23,13 @@
     },
     "Día 2: UNIDADES III - Estructuras Algebraicas y IV - Algebra de Boole": {
         "Sesiones": {
-            "Mañana (2 horas)": [
+            "Mañana": [
                 "🔗 Leyes de composición interna. Propiedades. Monoide.",
                 "📈 Semigrupo. Semigrupo con unidad. Grupo.",
                 "🔝 Grupo Abeliano. Subgrupo. Anillo.",
                 "🔩 Anillo con unidad. Cuerpo. Aplicaciones."
             ],
-            "Tarde (2 horas)": [
+            "Tarde": [
                 "💡 Definición. Propiedades.",
                 "🔁 Principio de dualidad. Puertas lógicas.",
                 "🔝 Circuitos booleanos. Minimización de circuitos.",
@@ -45,13 +45,13 @@
     },
     "Día 3: UNIDADES V - Grafos y VI - Arboles": {
         "Sesiones": {
-            "Mañana (2 horas)": [
+            "Mañana": [
                 "🌐 Definición. Vértices, lados, grados, bucles, caminos.",
                 "🔁 Circuitos. Circuitos eulerianos.",
                 "🔝 Circuitos hamiltonianos. Caminos de longitud mínima.",
                 "📈 Matrices de adyacencia y grafos. Digrafos."
             ],
-            "Tarde (2 horas)": [
+            "Tarde": [
                 "🌳 Arboles con raíz. Arboles etiquetados.",
                 "📈 Arboles binarios. Búsquedas en árboles.",
                 "🌈 Arboles no dirigidos. Arboles generadores, de expansión o expansión mínima.",
@@ -67,13 +67,13 @@
     },
     "Día 4: UNIDADES VII - MEF y VIII - Lógica de Predicados": {
         "Sesiones": {
-            "Mañana (2 horas)": [
+            "Mañana": [
                 "📚 Definición de lenguajes formales. Alfabeto.",
                 "📝 Gramáticas. Tipos de gramáticas. Forma de Backus-Naur.",
                 "📊 Definición de MEF. MEF como modelo de sistema físico. MEF determinista y no determinista.",
                 "🔩 Equivalencias de AEFD y AEFND. Representación de gramáticas regulares en Autómatas."
             ],
-            "Tarde (2 horas)": [
+            "Tarde": [
                 "💡 Predicados, relaciones y cuantificadores. Sintaxis. Alfabeto del cálculo de predicados. EBF. Reglas de formación de EBF.",
                 "📝 Semántica. Noción de interpretación. Definición. No ambigüedad semántica del Cálculo de Predicados.",
                 "🔁 Evaluación de EBF. Equivalencia lógica. Deductibilidad. Consistencia.",
@@ -88,4 +88,3 @@
         ]
     }
 }
-

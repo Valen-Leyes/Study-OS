@@ -1,13 +1,13 @@
 {
     "Día 1: UNIDADES I - Estructuras Lineales y II - Estructuras No Lineales": {
         "Sesiones": {
-            "Mañana (2 horas)": [
+            "Mañana": [
                 "📝 Listas enlazadas. Punteros.",
                 "📝 Declaración de listas enlazadas. Operaciones sobre listas enlazadas.",
                 "📝 Declaración de Listas circulares. Listas doblemente enlazadas.",
                 "📝 Pilas y Colas dinámicas."
             ],
-            "Tarde (2 horas)": [
+            "Tarde": [
                 "🌳 Árboles. Árboles binarios.",
                 "🌳 Árbol binario de búsqueda. Recorridos en profundidad y amplitud.",
                 "🌐 Grafos. Definición. Glosario. Representación por matriz y lista de adyacencia.",
@@ -23,13 +23,13 @@
     },
     "Día 2: UNIDADES III - Recursividad y IV - Datos Abstractos": {
         "Sesiones": {
-            "Mañana (2 horas)": [
+            "Mañana": [
                 "🔁 Recursividad. Naturaleza. Implementación.",
                 "🔁 Recursividad directa e indirecta. Recursividad Infinita.",
                 "💡 Ventajas y desventajas.",
                 "📊 Comparación con procesos iterativos."
             ],
-            "Tarde (2 horas)": [
+            "Tarde": [
                 "📚 Datos Abstractos. Introducción a los tipos de datos abstractos (TAD).",
                 "📚 Abstracción de datos. Concepto sobre tipos de datos. Módulos, interfaz e implementación.",
                 "🔒 Encapsulamiento de datos. Diferencia entre tipo de dato y tipo abstracto de datos.",
@@ -45,13 +45,13 @@
     },
     "Día 3 : UNIDADES V - Ordenación y VI - Búsqueda": {
         "Sesiones": {
-            "Mañana (2 horas)": [
+            "Mañana": [
                 "⚡️ Ordenación. Introducción a la ordenación.",
                 "⚡️ Clasificación de los algoritmos de ordenación. Métodos Directos.",
                 "⚡️ Métodos Logarítmicos. Ordenación por montículos.",
                 "⚡️ Ordenación de raíz. Intercalación."
             ],
-            "Tarde (2 horas)": [
+            "Tarde": [
                 "🔍 Búsqueda. Problema de la Búsqueda Estática. Búsqueda Secuencial.",
                 "🔍 Búsqueda de máximos y mínimos. Interna y externa (métodos).",
                 "🔍 Búsqueda Binaria. Búsqueda Ternaria. Búsqueda Interpolada.",
@@ -67,13 +67,13 @@
     },
     "Día 4: UNIDADES VII - Archivos y VIII - Optimización": {
         "Sesiones": {
-            "Mañana (2 horas)": [
+            "Mañana": [
                 "💻 Introducción al concepto de Archivos. Tipos de Archivos. Operaciones con Archivos.",
                 "📝 Corte de Control. Concepto corte de control. Definiciones. Requisitos.",
                 "📝 Proceso para el corte de control. Corte simple. Corte Compuesto.",
                 "📝 Corte por fin de datos. Operaciones de altas, bajas, modificaciones y consultas a Archivos Directos."
             ],
-            "Tarde (2 horas)": [
+            "Tarde": [
                 "📊 Análisis de algoritmos: concepto de eficiencia. Principio de invarianza. Tipo de Análisis.",
                 "📊 Caso mejor, peor o promedio. Cálculo de la Eficiencia.",
                 "📊 Principio de Optimalidad. Formas de Optimización.",
