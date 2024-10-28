@@ -7,3 +7,6 @@
 🔝 Resolución de los diferentes tipos de relaciones de recurrencia.
 🎲 Generación de números (seudo) aleatorios.
 🌐 Definición. Vértices, lados, grados, bucles, caminos.
+🔁 Circuitos. Circuitos eulerianos.
+📈 Matrices de adyacencia y grafos. Digrafos.
+🔝 Circuitos hamiltonianos. Caminos de longitud mínima.
