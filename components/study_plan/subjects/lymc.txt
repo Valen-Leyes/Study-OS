@@ -2,11 +2,11 @@
 💡 Tautologías. Contradicciones. Implicación lógica. Consecuencia lógica.
 🔩 Teorema de la deducción. Conectivos adecuados. Reglas de prioridad. Circuitos lógicos.
 📝 Reglas de inferencia. Modus ponens y Modus tollens. Silogismo hipotético. Aplicaciones.
-📈 Sucesiones y sumatorias. Definiciones por recurrencia.
-🔁 Relaciones de Recurrencia. Clasificación de las relaciones de recurrencia.
-🔝 Resolución de los diferentes tipos de relaciones de recurrencia.
-🎲 Generación de números (seudo) aleatorios.
 🌐 Definición. Vértices, lados, grados, bucles, caminos.
 🔁 Circuitos. Circuitos eulerianos.
 📈 Matrices de adyacencia y grafos. Digrafos.
 🔝 Circuitos hamiltonianos. Caminos de longitud mínima.
+🌳 Arboles con raíz. Arboles etiquetados.
+📈 Arboles binarios. Búsquedas en árboles.
+🌈 Arboles no dirigidos. Arboles generadores, de expansión o expansión mínima.
+🔩 Algoritmo de Prim y de Kruskal. Árbol de deducción proposicional.
