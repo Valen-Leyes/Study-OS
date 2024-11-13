@@ -10,3 +10,4 @@
 📈 Arboles binarios. Búsquedas en árboles.
 🌈 Arboles no dirigidos. Arboles generadores, de expansión o expansión mínima.
 🔩 Algoritmo de Prim y de Kruskal. Árbol de deducción proposicional.
+🔗 Leyes de composición interna. Propiedades. Monoide.
