@@ -7,4 +7,4 @@ def meme_display():
         st.subheader("Siguiente")
 
         # Display the image
-        st.image("components/meme/imgs/meme2.png", caption="Meme Image", use_column_width=True)
+        st.image("components/meme/imgs/meme3.png", caption="Meme Image", use_column_width=True)
