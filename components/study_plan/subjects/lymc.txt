@@ -2,3 +2,7 @@
 🔁 Principio de dualidad. Puertas lógicas.
 🔝 Circuitos booleanos. Minimización de circuitos.
 📊 Funciones booleanas. Diagrama de Karnaugh.
+🌐 Definición. Vértices, lados, grados, bucles, caminos.
+🔁 Circuitos. Circuitos eulerianos.
+🔝 Circuitos hamiltonianos. Caminos de longitud mínima.
+📈 Matrices de adyacencia y grafos. Digrafos.
