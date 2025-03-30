@@ -11,7 +11,7 @@ from utils import load_completed_topics, save_completed_topics, play_lofi_music,
 
 LOGIN_URL = st.secrets["LOGIN_URL"]
 LOGIN_PAYLOAD = {
-    "username": st.secrets["LOGIN_USER"],
+    "usuario": st.secrets["LOGIN_USER"],
     "password": st.secrets["LOGIN_PASSWORD"],
     "login": st.secrets["LOGIN_BUTTON"]
 }
