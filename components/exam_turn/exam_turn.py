@@ -19,6 +19,9 @@ def check_availability(login_url, login_payload, url, string_to_search):
 
 # Streamlit component
 def availability_checker(login_url, login_payload, url, string_to_search):
+    if not login_url or not login_payload or not url or not string_to_search:
+        st.error("No se proporcionaron todos los parámetros")
+        return
     st.header('Check Availability')
     availability = check_availability(login_url, login_payload, url, string_to_search)
     st.write(availability[0])
